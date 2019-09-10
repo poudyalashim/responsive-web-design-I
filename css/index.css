@@ -282,10 +282,11 @@ header .logo {
 		padding: 5%;
 		margin: 0;
 		border-bottom: 2px solid black;
-		border-top: 2px solid black;
+		/* border-top: 2px solid black; */
+		}
 
-		
-	}
+	
+
 	.main-content .top-content {
 		display: flex;
 		flex-direction: column;
@@ -296,7 +297,7 @@ header .logo {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-		border: 1px solid red;
+		/* border: 1px solid red; */
 		}
 
 	  .bottom-content div{
@@ -306,7 +307,7 @@ header .logo {
 
 	  .main-content .top-content .text-content{
 		margin-bottom: 40px;
-		border: 1px solid black;
+		/* border: 1px solid black; */
 	  }
 	
 }
