@@ -262,6 +262,11 @@ header .logo {
 }
 
 @media (max-width:500px){
+	.container {
+		width: 90%;
+		margin: 0 auto;
+	}
+
 	header nav{
 		display: flex;
 		flex-direction: column;
@@ -292,7 +297,8 @@ header .logo {
 		display: flex;
 		flex-direction: column;
 		justify-content: center;
-	 	}
+		margin-right: 10%;
+		 }
 	  
 	.main-content .bottom-content {
 		display: flex;
